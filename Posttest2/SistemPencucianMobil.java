@@ -14,7 +14,6 @@ class Pelanggan {
         this.historyPemesanan = historyPemesanan;
     }
 
-    // Getter dan Setter untuk idPelanggan
     public String getIdPelanggan() {
         return idPelanggan;
     }
@@ -23,7 +22,6 @@ class Pelanggan {
         this.idPelanggan = idPelanggan;
     }
 
-    // Getter dan Setter untuk nama
     public String getNama() {
         return nama;
     }
@@ -32,7 +30,6 @@ class Pelanggan {
         this.nama = nama;
     }
 
-    // Getter dan Setter untuk nomorTelepon
     public String getNomorTelepon() {
         return nomorTelepon;
     }
@@ -41,7 +38,6 @@ class Pelanggan {
         this.nomorTelepon = nomorTelepon;
     }
 
-    // Getter dan Setter untuk historyPemesanan
     public String getHistoryPemesanan() {
         return historyPemesanan;
     }
@@ -70,7 +66,7 @@ public class SistemPencucianMobil {
             System.out.println("5. Keluar");
             System.out.print("Pilih menu: ");
             int pilihan = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (pilihan) {
                 case 1:
